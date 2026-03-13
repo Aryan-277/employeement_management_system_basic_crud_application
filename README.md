@@ -73,3 +73,75 @@ employee-management-system
 ### 1 Backend (Spring Boot)
 
 Navigate to backend folder:
+cd crudapp
+Run the application:
+
+
+mvn spring-boot:run
+
+
+Server runs on:
+
+
+http://localhost:8080
+
+
+---
+
+### 2 Frontend (React)
+
+Navigate to frontend folder:
+
+
+cd frontend/crud-frontend
+
+
+Install dependencies:
+
+
+npm install
+
+
+Start the React server:
+
+
+npm start
+
+
+Frontend runs on:
+
+
+http://localhost:3000
+
+
+---
+
+## Database Setup
+
+Create PostgreSQL database:
+
+
+CREATE DATABASE cruddb;
+
+
+Update credentials in:
+
+
+application.properties
+
+
+---
+
+## Future Improvements
+
+- Search functionality
+- Pagination
+- JWT authentication
+- Docker containerization
+- Role-based access control
+
+---
+
+## Author
+
+Aryan Raj Chaudhary
